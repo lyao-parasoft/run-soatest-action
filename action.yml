@@ -5,7 +5,7 @@
     icon: 'aperture'
     color: 'blue'
   inputs:
-    installDir: "C:/Program Files/Parasoft/SOAtest_Virtualize/2022.1"
+    installDir: C:/Program Files/Parasoft/SOAtest_Virtualize/2022.1
     workingDir: D:/soa-workspace
     testConfig: builtin://Demo Configuration
     resource: TestAssets
@@ -20,7 +20,7 @@
       description: 'Enables the conversion of the SOAtest report into the xUnit format.'
       required: false
       default: true
-    javaRootPath: "C:/Program Files/Java/jdk-11/bin"
+    javaRootPath: C:/Program Files/Java/jdk-11/bin
       description: 'Absolute location of the root path of Java installation. When found at the specified location, Java optimizes the efficiency of report processing. Otherwise, report processing will be significantly slower and may encounter memory issues when handling large reports.'
       required: false
     additionalParams:
