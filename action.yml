@@ -5,7 +5,7 @@
     icon: 'aperture'
     color: 'blue'
   inputs:
-    installDir: "C:\Program Files\Parasoft\SOAtest_Virtualize\2022.1\soatestcli.exe"
+    installDir: "C:\Program Files\Parasoft\SOAtest_Virtualize\2022.1"
     workingDir: D:\soa-workspace
     testConfig: builtin://Demo Configuration
     resource: TestAssets
